@@ -3,7 +3,6 @@ vector<int> twoSum(vector<int>& nums, int target) {
     vector<int> collect;
     for(int i = 0; i < nums.size(); i++){
         int needed = target - nums[i];
-
         if(mymap.find(needed) != mymap.end()){
             int index1 = mymap[needed];
             int index2 = i;
@@ -13,7 +12,6 @@ vector<int> twoSum(vector<int>& nums, int target) {
         }else{
             mymap[nums[i]] = i;
         }
-
     }
     return collect;
 }
