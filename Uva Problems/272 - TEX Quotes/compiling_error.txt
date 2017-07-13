@@ -1,0 +1,4 @@
+/home/professor/Documents/Summer Acceleration/Algorithmic Acceleration/Uva Problems/272 - TEX Quotes/main.cpp: In function ‘int main()’:
+/home/professor/Documents/Summer Acceleration/Algorithmic Acceleration/Uva Problems/272 - TEX Quotes/main.cpp:9:11: error: ‘quote’ was not declared in this scope
+   cout << quote << endl;
+           ^~~~~

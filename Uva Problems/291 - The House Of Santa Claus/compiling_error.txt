@@ -1,0 +1,10 @@
+/home/professor/Documents/Summer Acceleration/Algorithmic Acceleration/Uva Problems/291 - The House Of Santa Claus/main.cpp:24:24: error: expected initializer before ‘void’
+ Graph::Graph(int V)    void DFSUtil(int v, bool visited[]);
+                        ^~~~
+/home/professor/Documents/Summer Acceleration/Algorithmic Acceleration/Uva Problems/291 - The House Of Santa Claus/main.cpp:25:1: error: expected unqualified-id before ‘{’ token
+ {
+ ^
+/home/professor/Documents/Summer Acceleration/Algorithmic Acceleration/Uva Problems/291 - The House Of Santa Claus/main.cpp: In function ‘int main()’:
+/home/professor/Documents/Summer Acceleration/Algorithmic Acceleration/Uva Problems/291 - The House Of Santa Claus/main.cpp:69:17: error: invalid type argument of unary ‘*’ (have ‘bool’)
+   g.DFSUtil(0, *visited);
+                 ^~~~~~~
